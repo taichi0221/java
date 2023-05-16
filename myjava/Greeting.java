@@ -2,10 +2,12 @@ import java.util.ArrayList;
 
 class Greeting {
   public static void main(String args[]){
-    int[] scores = {1 ,5 ,10};
+    var answer = square(5);
+    System.out.println(answer);
+  }
 
-    for(int score : scores) {
-      System.out.println(score);
-    }
+  public static int square(int number){
+    return number * number;
   }
 }
+
