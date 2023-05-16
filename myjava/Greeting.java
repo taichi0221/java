@@ -1,12 +1,14 @@
 class Greeting {
   public static void main(String args[]){
-    int x = 8;
-    int y = 3;
+  int[] scores;
+  scores = new int[3];
 
-    System.out.println(x == y);
-    System.out.println(x != y);
-    System.out.println(x * y);
-    System.out.println(x / y);
-    System.out.println(x % y);
+  scores[0] = 1;
+  scores[1] = 5;
+  scores[2] = 10;
+
+  System.out.println(scores[0]);
+  System.out.println(scores[1]);
+  System.out.println(scores[2]);
   }
 }
