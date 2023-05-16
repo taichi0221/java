@@ -1,12 +1,15 @@
+import java.util.ArrayList;
+
 class Greeting {
   public static void main(String args[]){
-    int x = 8;
-    int y = 3;
+    int value = 3;
 
-    System.out.println(x == y);
-    System.out.println(x != y);
-    System.out.println(x * y);
-    System.out.println(x / y);
-    System.out.println(x % y);
+    if (value > 0){
+      System.out.println("値は正です");
+    }else if (value < 0){
+      System.out.println("値は負です");
+    }else {
+      System.out.println("値は０です");
+    }
   }
 }
